@@ -1,5 +1,5 @@
 # # 💫 About Me:
-🚀 About Me<br>- 🎓 Currently pursuing my Bachelor of Computer Applications (2024–2027).<br>- 💻 Building native Android applications focusing on seamless UI and robust backend integration.<br>- 🎯 My current focus is on mastering Kotlin, data structures, and enterprise-level system design.<br>- 🏢 Career Aspiration: Building large-scale, innovative systems (Aiming for roles at companies like J.P. Morgan).<br>
+🚀 Vinayak Rathod<br>- 🎓 Currently pursuing my Bachelor of Computer Applications (2024–2027).<br>- 💻 Building native Android applications focusing on seamless UI and robust backend integration.<br>- 🎯 My current focus is on mastering Kotlin, data structures, and enterprise-level system design.<br>- 🏢 Career Aspiration: Building large-scale, innovative systems (Aiming for roles at companies like J.P. Morgan).<br>
 
 
 ## 🌐 Socials:
