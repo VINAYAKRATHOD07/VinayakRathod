@@ -1,27 +1,31 @@
-# # 💫 About Me:
-🚀 Vinayak Rathod<br>- 🎓 Currently pursuing my Bachelor of Computer Applications (2024–2027).<br>- 💻 Building native Android applications focusing on seamless UI and robust backend integration.<br>- 🎯 My current focus is on mastering Kotlin, data structures, and enterprise-level system design.<br>- 🏢 Career Aspiration: Building large-scale, innovative systems (Aiming for roles at companies like J.P. Morgan).<br>
+# 1. Clone (or init if truly empty)
+git clone https://github.com/vinayakrathod07/vinayakrathod07.git
+cd vinayakrathod07
 
+# 2. Download both theme SVGs
+curl -fL "https://gh.crafter.run/vinayakrathod07?theme=dark" -o dark_mode.svg
+curl -fL "https://gh.crafter.run/vinayakrathod07?theme=light" -o light_mode.svg
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/vinayy._.13?igsh=YTRtcWhjNWRtajJo) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/vinayak-rathod-000449319?utm_source=share_via&utm_content=profile&utm_medium=member_android) 
+# 3. Open both locally before committing — check the light card isn't washed out
+open dark_mode.svg light_mode.svg   # macOS
+# xdg-open dark_mode.svg light_mode.svg   # Linux
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=VINAYAKRATHOD07&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=VINAYAKRATHOD07&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=VINAYAKRATHOD07&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+# 4. Prepend the picture block to README.md (creates README.md if missing)
+touch README.md
+cat > /tmp/card_block.md << 'EOF'
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="vinayakrathod07's GitHub profile" src="dark_mode.svg" />
+</picture>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=VINAYAKRATHOD07&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+EOF
+cat README.md >> /tmp/card_block.md
+mv /tmp/card_block.md README.md
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=VINAYAKRATHOD07&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
----
-[![](https://komarev.com/ghpvc/?username=VINAYAKRATHOD07&icon=0&color=0)](https://visitcount.itsvg.in)
+# 5. Commit and push
+git add dark_mode.svg light_mode.svg README.md
+git commit -m "feat: add gh-ascii profile card"
+git push origin main   # or 'master' — check your default branch first
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
