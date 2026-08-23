@@ -7,8 +7,6 @@
 <h1 align="center">Hi 👋, I'm Vinayak Rathod</h1>
 <h3 align="center">A passionate Building Apps & Analyzing Data | Skilled in Android Dev, Software Testing, Data Analysis & AI | BCA @ Presidency University</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=vinayakrathod07" alt="vinayakrathod07" /></a> </p>
-
 - 🔭 I’m currently working on [SafeOV (Emergency SOS & Safety App)](https://github.com/vinayakrathod07/SafeOV)
 
 - 🌱 I’m currently learning **React, Vue, GSAP, Android Development**
